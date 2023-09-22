@@ -1,0 +1,111 @@
+/* banner */
+.banner{
+    width: 100%;
+    height: 70px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)),url("../img/gradiente1.jpg");
+    background-size: cover ;
+    background-position: bottom;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.banner-logo{
+    width: 100%;
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 35px;
+    padding: 5px 13px;
+    border: none;
+    border-radius: 0;
+    font-family: Playfair Display, Arial, Helvetica, sans-serif;
+}
+
+@media(max-width:480px){
+    .banner-eslogan{
+        margin: 0 10px;
+    }
+}
+/* generales */
+
+h1,h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* article */
+
+main{
+    padding: 30px 70px;
+}
+
+.articulo-blog{
+    margin-top: 30px;
+}
+.articulo-blog h2{
+    margin-bottom: 30px;
+}
+
+@media(max-width:480px){
+    main{
+        padding: 15px;
+    }
+}
+
+
+
+/* Barra de navegacion */
+
+.navBar{
+    border-top: 1px solid rgb(213, 213, 213);
+    position:sticky;
+    top: 0px;
+    z-index: 99;
+    background-color: rgb(233, 232, 232);
+}
+.nav-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-link{
+    font-weight: normal;
+}
+.nav-link:hover{
+    font-weight: bold;
+}
+
+@media(min-width:480px){
+    .icon-nav{
+        display: none;
+    }
+}
+
+/* otros post */
+.otros-post{
+    margin-top: 60px;
+}
+
+.servicio-container{
+    padding: 0 !important;
+}
+
+/* footer */
+
+footer{
+    background-color: rgb(17, 17, 17);
+}
+
+footer p{
+    margin: 0;
+    color: var(--blanco);
+    text-align: center;
+    padding: 5px 0;
+}
