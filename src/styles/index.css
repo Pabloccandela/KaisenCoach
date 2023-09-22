@@ -270,7 +270,7 @@ main{
 
 /* newsletter */
 .newsletter{
-    background-image: url("/src/img/header.webp");
+    background-image: url("/src/img/header.jpg");
     background-position: center;
     background-size: cover;
     height: 300px;
